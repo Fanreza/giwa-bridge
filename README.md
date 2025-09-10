@@ -1,75 +1,25 @@
-# Nuxt Minimal Starter
+# Giwa Testnet Bridge
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is a **testnet bridge application** for transferring test ETH between Sepolia and GIWA Testnet.  
+**⚠️ Disclaimer:** This app is for testing purposes only. The developers are **not responsible for any loss** of funds, mistakes, or misuse.
 
-## Setup
+## Getting Started
 
-Make sure to install dependencies:
+Make sure you have **Node.js >= 18** installed.
+
+### Installation
 
 ```bash
-# npm
+# Clone the repository
+git clone https://github.com/Fanreza/giwa-bridge.git
+cd giwa-bridge
+
+# Install dependencies
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
+### Run
 ```bash
-# npm
+# Start development server
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
